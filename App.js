@@ -22,7 +22,7 @@ class Content extends React.Component{
                    <h3 className="text-center" >About:</h3>
                    <div id="top" className="animate__animated animate__backInLeft">
                         <div  id="profile"></div>
-                        <q >Hello, I'am William Omondi, I did my <abbr title="Kenya Certificate of Secondary Education">K.C.S.E</abbr> back in 2023 at <span className="text-danger">Ramba Boys' High School</span> and I'am to join University this year, in August 22</q>
+                        <q >Hello, I'am William Omondi, I did my <abbr title="Kenya Certificate of Secondary Education">K.C.S.E</abbr> back in 2023 at <span className="text-danger">Ramba Boys' High School</span> and I'am to join University this year, in August 27</q>
                    </div>
                 </div>
                 <hr/>
@@ -58,9 +58,12 @@ class Content extends React.Component{
                     <h5 className="animate__animated animate__backInLeft">Average Grade: B+</h5>
                 </div>
                 <hr/>
-                <div>
-                    <h3 className="text-center animate__animated animate__backInLeft" >Course And University</h3>
+                <div  className="text-center animate__animated animate__backInLeft" >
+                    <h3>Course And University</h3>
                     <p>I have gotten the chance to join <span className="text-danger">University Of Eldoret</span> to pursue a Bachelor of Science in <span className="text-danger">Mechanical Engineering</span>. I'am deeply happy to have gotten this rare opoturnity to proceed with my education at this prestigious University</p>
+                    <div className="text-center">
+                        <a href="admission letter\admission.pdf" download="Admission Letter"><button className="btn btn-primary">Admission Letter pdf <i class="fa-solid fa-download"></i></button></a>
+                    </div>
                 </div>
                 <hr/>
                 <div className="animate__animated animate__backInLeft">
